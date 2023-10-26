@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr.AJ Portfolio</title>
+   
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="overlay overlay-lg">
+          <img src="./img/shapes/square.png" class="shape square" alt="" />
+          <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+          <img
+            src="./img/shapes/half-circle.png"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./img/shapes/half-circle.png"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+          <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
+          <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
+          <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+          <img src="./img/shapes/letters.png" class="letters" alt="" />
+          <img src="./img/shapes/points1.png" class="points points1" alt="" />
+        </div>
+
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#testimonials">Testimonials</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#hireme" class="active" onclick="openWhatsAppChat()">Hire me</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Raja Raman.S</h1>
+              <p class="text">Hello, I'm <span id="auto-type"></span></p>
+              <a href="resume.pdf" class="btn">Download CV</a>
+            </div>
+
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/person.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What I Do">Services</h3>
+            <p class="text">
+              "As a web design and development professional, I create beautiful,
+              high-performance websites, ensuring seamless functionality and
+              top-tier user experiences. From front-end design to back-end
+              development, I deliver excellence, deploying on platforms like
+              Amazon AWS and GitHub. Let's bring your digital vision to life! "
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="./img/design-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Design & Web development</h3>
+                  <p class="text">
+                    "Harmonizing my web design prowess in crafting visually
+                    stunning websites with my web development skills in creating
+                    high-performance solutions, all while seamlessly deploying
+                    on Amazon AWS and GitHub. This achievement underscores my
+                    exceptional expertise in the digital realm of web design and
+                    development."
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/code-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Backend developer</h3>
+                  <p class="text">
+                    "Leveraging my extensive backend development experience, I
+                    expertly craft high-performance web solutions that work
+                    behind the scenes. My proficiency in server-side
+                    programming, database integration, and seamless deployment
+                    on Amazon AWS and GitHub showcases my exceptional skills in
+                    the backend development realm."
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Hardware</h3>
+                  <p class="text">
+                    I excel in hardware repair with a knack for diagnosing and fixing a variety of technical issues. From PC and laptop assembly to component replacement, my skills cover a broad spectrum. I'm adept at troubleshooting, setting up peripherals, and even data recovery. My passion for precision and problem-solving makes me a valuable addition to any team in need of top-notch hardware repair expertise.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">App development</h3>
+                  <p class="text">
+                   I possess foundational skills in app development, with proficiency in creating simple yet functional applications. My expertise includes basic programming, user interface design, and app deployment. I'm passionate about learning and ready to contribute to app development projects
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.png" class="shape square" alt="" />
+            <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.png"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="My works">Portfolio</h3>
+          </div>
+
+          <div class="section-body">
+            
+
+            <div class="grid">
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.png" alt="" />
+                  <div class="img-overlay">
+                  <div class="plus"></div></a> 
+                    <div class="img-description">
+                      <h3>OTT Platform</h3>
+                 <h5>  <a href="https://ajmovies.s3.ap-southeast-2.amazonaws.com/index.html" target="_blank" class="btn">View demo</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port2.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Netflex login page</h3>
+                      <h5><a href="https://ajmovies.s3.ap-southeast-2.amazonaws.com/log.html" target="_blank" class="btn"> View Demo</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port3.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Cake Inn</h3>
+                      <h5><a href="https://cakeinn.s3.ap-southeast-2.amazonaws.com/index.html" target="_blank" class="btn">View Demo</a> </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>UI / UX Design</h3>
+                      <h5><a href="https://mydesktopload.s3.ap-southeast-2.amazonaws.com/google.html" target="_blank" class="btn">View Demo</a> </h5>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port5.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logo Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Hardware Repair</h3>
+                      <h5 class="btn">View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+              </div>
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">More Folio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Hello, I'm</h3>
+              <p class="text">
+                A passionate and aspiring developer with a strong foundation in
+                web technologies like HTML, CSS, and JavaScript. I enjoy taking
+                on creative challenges and contributing to innovative projects.
+                Currently pursuing a BSc in Computer Science, I am eager to
+                continue learning and growing in the tech industry. With a knack
+                for problem-solving and a flair for design, I bring a
+                well-rounded skill set to every task.
+              </p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="100%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="96%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="93%"></div>
+                  </div>
+                </div>
+                <div class="skill React">
+                  <h3 class="skill-title">React</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill Hardware">
+                  <h3 class="skill-title">Hardware</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.png" class="points" alt="" />
+              <img src="./img/about.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="records">
+        <div class="overlay overlay-sm">
+          <img src="./img/shapes/square.png" alt="" class="shape square1" />
+          <img src="./img/shapes/square.png" alt="" class="shape square2" />
+          <img src="./img/shapes/circle.png" alt="" class="shape circle" />
+          <img
+            src="./img/shapes/half-circle.png"
+            alt=""
+            class="shape half-circle"
+          />
+          <img src="./img/shapes/wave.png" alt="" class="shape wave wave1" />
+          <img src="./img/shapes/wave.png" alt="" class="shape wave wave2" />
+          <img src="./img/shapes/x.png" alt="" class="shape xshape" />
+          <img src="./img/shapes/triangle.png" alt="" class="shape triangle" />
+        </div>
+
+        <div class="container">
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="36">0</h2>
+              <h4 class="sub-title">Projects</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle active">
+              <h2 class="number" data-num="24">0</h2>
+              <h4 class="sub-title">Happy Clients</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="892">0</h2>
+              <h4 class="sub-title">Work Hour</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="5">0</h2>
+              <h4 class="sub-title">Awards</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials section" id="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What People Say">Testimonials</h3>
+          </div>
+
+          <div class="testi-content grid-2">
+            <div class="column-1 reviews">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                     
+                    </div>
+
+                    <p class="review-text">
+                      I engaged this team for web development services, and I'm thoroughly impressed. They delivered a flawless website that perfectly matches my vision. Their attention to detail and expertise is truly commendable
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Tamil selvan</h3>
+                      <h5 class="review-job">Photographer, Chennai</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      The HTML work provided by this developer is exceptional. They have a deep understanding of the language and produced clean, well-structured code. My website looks fantastic, thanks to their expertise
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Dhanavel</h3>
+                      <h5 class="review-job">Gym trainer,Tirunelvelli</h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                     The software developed by this team is nothing short of excellent. It's intuitive, efficient, and has greatly improved our workflow. I highly recommend their software development services.
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">Mani kandan</h3>
+                      <h5 class="review-job">Vfx artist, covai </h5>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide review">
+                    <i class="fas fa-quote-left quote"></i>
+                    <div class="rate">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+
+                    <p class="review-text">
+                      I needed help with HTML coding, and this expert was a lifesaver. Their HTML skills are top-notch, and they quickly resolved all the issues on my website. I'm thrilled with the results.
+                    </p>
+
+                    <div class="review-info">
+                      <h3 class="review-name">subash</h3>
+                      <h5 class="review-job">Engineer, Tenkasi</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review-nav swiper-button-prev">
+                  <i class="fas fa-long-arrow-alt-left"></i>
+                </div>
+                <div class="review-nav swiper-button-next">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/testi.png" alt="" class="img-element"  />
+              i cant diplay there original photos due to some privacy
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <p class="text">
+          If you prefer, you can also use the contact form below to send us a message. We'll get back to you as soon as possible
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">TamilNadu, India</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">Rajaraman5262@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">6383-6348-73</p>
+                </div>
+              </div>
+            </div>
+<form action="https://formsubmit.co/0abea7674623e404e115a1c20aea9657@gmail.com" method="POST" >
+            <div class="contact-form">
+              <h3 class="title">Contact me</h3>
+              <form action="">
+                <div class="row">
+                  <input
+                    type="text"
+                    class="contact-input"
+                    placeholder="First Name"
+                    id="fn"
+                    name="firstname"
+                  />
+                  <input
+                    type="text"
+                    class="contact-input"
+                    placeholder="Last Name"
+                    id="ln"
+                    name="lastname"
+                  />
+                </div>
+
+                <div class="row">
+                  <input
+                    type="text"
+                    class="contact-input"
+                    placeholder="Phone"
+                    id="Phone"
+                    name="phone"
+                  />
+                  <input
+                    type="email"
+                    class="contact-input"
+                    placeholder="Email"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+
+                <div class="row">
+                  <textarea
+                    name="message"
+                    class="contact-input textarea"
+                    placeholder="Message"
+                    id="msg"
+                    name="msg"
+                  ></textarea>
+                </div>
+                <button class="btn" id="btn">Send</button>
+                </form>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Let's talk about a project</h3>
+          <p class="text">
+           Let's talk about our jobs and careers. It's always interesting to learn about what we do, our career aspirations, and the experiences we've had in the professional world. Whether you're passionate about your current job or contemplating a career change, I'd love to hear about your work, your goals, and what motivates you in your career journey. What's the most rewarding aspect of your job, and are there any challenges you're facing? Let's share our insights and experiences, and maybe we can offer each other some valuable advice or encouragement along the way
+          </p>
+          <a href="#" class="btn">Hire me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+             A passionate and aspiring developer with a strong foundation in web technologies like HTML, CSS, and JavaScript. I enjoy taking on creative challenges and contributing to innovative projects. Currently pursuing a BSc in Computer Science, I am eager to continue learning and growing in the tech industry. With a knack for problem-solving and a flair for design, I bring a well-rounded skill set to every task.
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Services</h3>
+            <ul>
+              <li>
+                <a href="#">Web Design</a>
+              </li>
+              <li>
+                <a href="#">Web Dev</a>
+              </li>
+              <li>
+                <a href="#">App Design</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">Hardware</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Thank you</h3>
+            <p class="text">
+              You can contact me at any time
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 All rights reserved | Made by
+             Rajaraman.S
+              
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/f_i_l_l_my_h_e_a_r_t/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/raja-raman-s-689129249/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -698,7 +698,7 @@ header .circle {
   left: 0;
   z-index: 2;
   color: var(--light-one);
-  background-color: rgba(120, 76, 251, 0.55);
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -751,6 +751,7 @@ header .circle {
 
 .gallery-image:hover img {
   transform: translate(-50%, -50%) scale(1.1);
+  background-color: #aaa;
 }
 
 .more-folio {
